@@ -94,11 +94,11 @@ body {
 
 #info ul li a:link {
     text-decoration: none;
-    color: #000;
+    color: darkblue;
 }
 
 #info ul li a:visited {
-    color: darkblue;
+    color: blueviolet;
 }
 
 #info ul li a:hover {
@@ -143,6 +143,19 @@ body {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Encode Sans Condensed', sans-serif;    
+}
+
+#cont dl dt a:link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#cont dl dt a:visited {
+    color: blueviolet;
+}
+
+#cont dl dt a:hover {
+    color: crimson;   
 }
 
 /* Color Palette
