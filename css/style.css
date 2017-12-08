@@ -94,11 +94,11 @@ body {
 
 #info ul li a:link {
     text-decoration: none;
-    color: darkblue;
+    color: darkgreen;
 }
 
 #info ul li a:visited {
-    color: blueviolet;
+    color: darkblue;
 }
 
 #info ul li a:hover {
@@ -147,11 +147,11 @@ body {
 
 #cont dl dt a:link {
     text-decoration: none;
-    color: darkblue;
+    color: darkgreen;
 }
 
 #cont dl dt a:visited {
-    color: blueviolet;
+    color: darkblue;
 }
 
 #cont dl dt a:hover {
