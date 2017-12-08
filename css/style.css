@@ -1,0 +1,188 @@
+/* Grid Structure Code */
+
+.grid {
+    z-index: 10;
+    margin:20px auto 20px auto;
+    width:1020px;
+    height:auto;
+    
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: 200px 100px auto;
+    grid-template-areas:
+        "info head head head head"
+        "info hea2 hea2 hea2 hea2"
+        "cont cont cont cont cont";
+}
+
+#info {
+    grid-area: info;
+}
+
+#head {
+    grid-area: head;
+}
+
+#hea2 {
+    grid-area: hea2;
+}
+
+#cont {
+    grid-area: cont;
+}
+
+
+/* Presentation Code */
+
+body {
+    color:#000000;
+    background-color:#f8f8f8;
+    font-family: sans-serif;
+    background-image: url(../images/main_background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#info, #head, #hea2, #cont {
+    padding: 20px;
+    background-color: #AAA;    
+    opacity: 0.75;
+}
+
+#info p, #head p, #cont p {
+    font-size: 25px;
+    color: #000;    
+    opacity: 100%;
+}
+
+
+/*Info stuff*/
+#info {    
+    text-align: center;
+}
+
+#info h1{
+    font-size: 25px;    
+    margin-bottom: 5px;
+    line-height: 27px;
+}
+
+#clockbox {
+    font-size: 35px;
+    font-family: 'Encode Sans Condensed', sans-serif;    
+    margin-bottom: 17px;
+}
+
+#info h2 {
+    font-size:35px; 
+    font-family: 'Encode Sans Condensed', sans-serif;
+    margin-bottom: 17px;
+}
+
+#info ul {
+    text-align: center;
+}
+
+#info ul li {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#info ul li a:link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#info ul li a:visited {
+    color: blueviolet;
+}
+
+#info ul li a:hover {
+    color: crimson;   
+}
+
+
+/*Header stuff*/
+#head h1 {
+    font-size: 50px;
+    margin:10px 0px 25px 0px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#head h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#hea2 h1 {
+    top: 10%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-style: italic;
+}
+
+/*Content stuff */
+#cont {
+    
+    font-size: 25px;
+    color: #000;    
+    opacity: 100%;
+    line-height: 30px; 
+}
+
+#cont h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Encode Sans Condensed', sans-serif;    
+}
+
+#cont dl dt a:link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#cont dl dt a:visited {
+    color: blueviolet;
+}
+
+#cont dl dt a:hover {
+    color: crimson;   
+}
+
+/* Color Palette
+
+
+
+*/
+
+/* Google Fonts
+
+font-family: 'Encode Sans Condensed', sans-serif;
+
+
+
+*/
+
+/* Box Shadows
+top {
+  box-shadow: 0px -15px 10px -15px #111;
+}
+bottom {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+left {
+  box-shadow: -15px 0px 10px -15px #111;
+}
+right {
+  box-shadow: 15px 0px 10px -15px #111;
+}
+*/
