@@ -10,7 +10,7 @@
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     grid-template-columns: repeat(5, 200px);
-    grid-template-rows: 200px 100px auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
         "info head head head head"
         "info hea2 hea2 hea2 hea2"
@@ -156,6 +156,16 @@ body {
 
 #cont dl dt a:hover {
     color: crimson;   
+}
+
+#layoutImage {
+    width: 500px;
+    height: 1547px;
+    margin: auto;
+    border: 2px solid #000;
+    background-image: url(../images/layoutDMP.PNG);
+    background-position: center;
+    background-size: cover;
 }
 
 /* Color Palette
