@@ -9,7 +9,7 @@
     display: grid;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: auto auto 200px 200px 200px;
     grid-template-rows: auto auto auto;
     grid-template-areas:
         "info head head head head"
@@ -78,7 +78,7 @@ body {
 }
 
 #info h2 {
-    font-size: 160%; 
+    font-size: 35px; 
     font-family: 'Encode Sans Condensed', sans-serif;
     margin-bottom: 17px;
 }
