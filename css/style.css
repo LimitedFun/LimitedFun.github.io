@@ -121,6 +121,12 @@ body {
     text-align: center;
 }
 
+#testscript {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000;
+}
+
 #hea2 h1 {
     top: 10%;
     text-align: center;
